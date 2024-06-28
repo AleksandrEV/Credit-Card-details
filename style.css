@@ -1,0 +1,25 @@
+body {
+    background-color: azure;
+}
+.cardForm {
+    background-color: white;
+    max-width: 40%;
+    min-height: 400px;
+    max-height: auto;
+    box-shadow: 0px 15px 10px 17px rgba(34, 60, 80, 0.2);
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.inCardForm {
+    display: flex;
+    flex-direction: column;
+}
+.inputElement {
+    display: flex;
+    flex-direction: column;
+}
+.inputElementRow {
+    display: flex;
+    flex-direction: row;
+    
+}

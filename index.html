@@ -4,38 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section>
-        <div>
-            <form action="" method="get">
-
-                <div>
-                    <img src="#" alt="обложка карты">
-                </div>
-                <div>
-                    <label for="number">Card number</label>
-                    <input type="" id="number" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder="xxxx-xxxx-xxxx-xxxx">
-                </div>
-                <div>
-                    <label for="name">Card name</label>
-                    <input type="text" id="name"></div>
-                <div>
+        <div class="cardForm">
+            <form action="" method="get" class="form">
+                <div class="inCardForm">    
                     <div>
-                        <label for="expiration">Expiration date</label>
-                        <input type="number" id="expiration">
-                        <input type="number" id="expiration">
+                        <img src="#" alt="обложка карты">
+                    </div>
+                    <div class="inputElement">
+                        <label for="number">Card number</label>
+                        <input type="" id="number" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder="xxxx-xxxx-xxxx-xxxx">
+                    </div>
+                    <div class="inputElement">
+                        <label for="name">Card name</label>
+                        <input type="text" id="name">
                     </div>
                     <div>
-                        <label for="cvvCode">CVV</label>
-                        <input type="" id="cvvCode">
+                        <div>
+                            <label for="expiration">Expiration date</label>
+                            <div class="inputElementRow">
+                                <input type="number" id="expiration">
+                                <input type="number" id="expiration">
+                            </div>
+                        </div>
+                        <div class="inputElement">
+                            <label for="cvvCode">CVV</label>
+                            <input type="" id="cvvCode">
+                        </div>
                     </div>
-                </div>
-                    
-                <div>
-                    <input type="submit" value="">
-                </div>
-
+                        
+                    <div>
+                        <input type="submit" value="">
+                    </div>
+                </div>    
             </form>
         </div>
     </section>
